@@ -8,7 +8,7 @@ function App() {
     const result = await fetch(
       `https://api.api-ninjas.com/v1/stockprice?ticker=${stock.toUpperCase()}`,
       {
-        headers: { "X-Api-Key": "HawSurTjdFYh2inEuSN8HzeDA9AQDy6OCvRh4s1h" },
+        headers: { "X-Api-Key": "API_KEY" },
       }
     );
 
